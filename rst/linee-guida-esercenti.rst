@@ -139,7 +139,7 @@ Verifica in caso di vendita online
 Nel proprio sito internet, l'esercente consente al diciottenne di
 indicare il codice del buono da verificare e riscuotere tramite
 chiamata al web-service le cui specifiche sono reperibili
-nell'allegato 1.
+nell'`Allegato 1`_.
 
 Gli esercenti possono visualizzare la lista dei buoni riscossi
 utilizzando eventuali filtri di ricerca per data di generazione del
@@ -513,28 +513,27 @@ WSDL VerificaVoucher.wsdl
 targetnamespace: `**http://bonus.mibact.it/VerificaVoucher/** <http://bonus.mibact.it/VerificaVoucher/>`__
 
 
-
-+------------------+----------------------+------------------+------------------+---------------------+
-| services         | bindings             | porttypes        | messages         | types               |
-|                  |                      |                  |                  |                     |
-+------------------+----------------------+------------------+------------------+---------------------+
-| VerificaVoucher_ | VerificaVoucherSOAP_ | VerificaVoucher_ | CheckRequest_    | Check_              |
-|                  |                      |                  |                  |                     |
-|                  |                      |                  | CheckResponse_   | CheckRequestObj_    |
-|                  |                      |                  |                  |                     |
-|                  |                      |                  | ConfirmRequest_  | CheckResponse_      |
-|                  |                      |                  |                  |                     |
-|                  |                      |                  | ConfirmResponse_ | CheckResponseObj_   |
-|                  |                      |                  |                  |                     |
-|                  |                      |                  |                  | Confirm_            |
-|                  |                      |                  |                  |                     |
-|                  |                      |                  |                  | ConfirmRequestObj_  |
-|                  |                      |                  |                  |                     |
-|                  |                      |                  |                  | ConfirmResponse_    |
-|                  |                      |                  |                  |                     |
-|                  |                      |                  |                  | ConfirmResponseObj_ |
-|                  |                      |                  |                  |                     |
-+------------------+----------------------+------------------+------------------+---------------------+
++------------------+----------------------+----------------------------------------------+------------------+----------------------------------------------+
+| services         | bindings             | porttypes                                    | messages         | types                                        |
+|                  |                      |                                              |                  |                                              |
++------------------+----------------------+----------------------------------------------+------------------+----------------------------------------------+
+| VerificaVoucher_ | VerificaVoucherSOAP_ | :ref:`VerificaVoucher <VerificaVoucherPort>` | CheckRequest_    | Check_                                       |
+|                  |                      |                                              |                  |                                              |
+|                  |                      |                                              | CheckResponse_   | CheckRequestObj_                             |
+|                  |                      |                                              |                  |                                              |
+|                  |                      |                                              | ConfirmRequest_  | :ref:`CheckResponse <CheckResponseType>`     |
+|                  |                      |                                              |                  |                                              |
+|                  |                      |                                              | ConfirmResponse_ | CheckResponseObj_                            |
+|                  |                      |                                              |                  |                                              |
+|                  |                      |                                              |                  | Confirm_                                     |
+|                  |                      |                                              |                  |                                              |
+|                  |                      |                                              |                  | ConfirmRequestObj_                           |
+|                  |                      |                                              |                  |                                              |
+|                  |                      |                                              |                  | :ref:`ConfirmResponse <ConfirmResponseType>` |
+|                  |                      |                                              |                  |                                              |
+|                  |                      |                                              |                  | ConfirmResponseObj_                          |
+|                  |                      |                                              |                  |                                              |
++------------------+----------------------+----------------------------------------------+------------------+----------------------------------------------+
 
 
 
@@ -566,7 +565,7 @@ service **VerificaVoucher**
 +---------+----------------------------------------------------------------------------------------------------------------+
 | ports   | **VerificaVoucherSOAP**                                                                                        |
 |         |                                                                                                                |
-|         | *binding*        **tns:VerificaVoucherSOAP**                                                                   |
+|         | *binding*        :ref:`tns:VerificaVoucherSOAP <VerificaVoucherSOAP>`                                          |
 |         |                                                                                                                |
 |         | *extensibility*  :code:`<soap:address location="https://bonus.mibact.it/VerificaVoucherWEB/VerificaVoucher"/>` |
 +---------+----------------------------------------------------------------------------------------------------------------+
@@ -590,7 +589,7 @@ binding **VerificaVoucherSOAP**
 +---------------+-------------------------------------------------------------------------------------------------------+
 | diagram       | |image5|                                                                                              |       
 +---------------+-------------------------------------------------------------------------------------------------------+
-| type          | **tns:VerificaVoucher**                                                                               |
+| type          | :ref:`tns:VerificaVoucher <VerificaVoucherPort>`                                                      |
 +---------------+-------------------------------------------------------------------------------------------------------+
 | extensibility | :code:`<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>`             |
 |               |                                                                                                       |
@@ -611,7 +610,7 @@ binding **VerificaVoucherSOAP**
 |               |                                                                                                       |
 |               | *output* :code:`<soap:body use="literal"/>`                                                           |
 +---------------+-------------------------------------------------------------------------------------------------------+
-| used by       | Port **VerificaVoucherSOAP** in Service **VerificaVoucher**                                           |
+| used by       | Port VerificaVoucherSOAP_ in Service VerificaVoucher_                                                 |
 +---------------+-------------------------------------------------------------------------------------------------------+
 | source        | .. code-block:: xml                                                                                   |
 |               |                                                                                                       |
@@ -638,39 +637,40 @@ binding **VerificaVoucherSOAP**
 |               |    </wsdl:binding>                                                                                    |
 +---------------+-------------------------------------------------------------------------------------------------------+
 
+.. _`VerificaVoucherPort`:
 
 porttype **VerificaVoucher**
 
-+------------+-------------------------------------------------+
-| diagram    | |image6|                                        |
-+------------+-------------------------------------------------+
-| operations | **Check**                                       |
-|            |                                                 |
-|            | *input* **tns:CheckRequest**                    |
-|            |                                                 |
-|            | *output* **tns:CheckResponse**                  |
-|            |                                                 |
-|            | **Confirm**                                     |
-|            |                                                 |
-|            | *input* **tns:ConfirmRequest**                  |
-|            |                                                 |
-|            | *output* **tns:ConfirmResponse**                |
-+------------+-------------------------------------------------+
-| used by    | binding **VerificaVoucherSOAP**                 |
-+------------+-------------------------------------------------+
-| source     | .. code-block:: xml                             |
-|            |                                                 |
-|            |    <wsdl:portType name="VerificaVoucher">       |
-|            |    <wsdl:operation name="Check">                |
-|            |    <wsdl:input message="tns:CheckRequest"/>     |
-|            |    <wsdl:output message="tns:CheckResponse"/>   |
-|            |    </wsdl:operation>                            |
-|            |    <wsdl:operation name="Confirm">              |
-|            |    <wsdl:input message="tns:ConfirmRequest"/>   |
-|            |    <wsdl:output message="tns:ConfirmResponse"/> |
-|            |    </wsdl:operation>                            |
-|            |    </wsdl:portType>                             |
-+------------+-------------------------------------------------+
++------------+------------------------------------------------------+
+| diagram    | |image6|                                             |
++------------+------------------------------------------------------+
+| operations | **Check**                                            |
+|            |                                                      |
+|            | *input* :ref:`tns:CheckRequest <CheckRequest>`       |
+|            |                                                      |
+|            | *output* :ref:`tns:CheckResponse <CheckResponse>`    |
+|            |                                                      |
+|            | **Confirm**                                          |
+|            |                                                      |
+|            | *input* :ref:`tns:ConfirmRequest <ConfirmRequest>`   |
+|            |                                                      |
+|            | *output* :ref:`tns:ConfirmResponse <ConfirmResponse>`|
++------------+------------------------------------------------------+
+| used by    | binding `VerificaVoucherSOAP`_                       |
++------------+------------------------------------------------------+
+| source     | .. code-block:: xml                                  |
+|            |                                                      |
+|            |    <wsdl:portType name="VerificaVoucher">            |
+|            |    <wsdl:operation name="Check">                     |
+|            |    <wsdl:input message="tns:CheckRequest"/>          |
+|            |    <wsdl:output message="tns:CheckResponse"/>        |
+|            |    </wsdl:operation>                                 |
+|            |    <wsdl:operation name="Confirm">                   |
+|            |    <wsdl:input message="tns:ConfirmRequest"/>        |
+|            |    <wsdl:output message="tns:ConfirmResponse"/>      |
+|            |    </wsdl:operation>                                 |
+|            |    </wsdl:portType>                                  |
++------------+------------------------------------------------------+
 
 
 
@@ -679,14 +679,14 @@ porttype **VerificaVoucher**
 message **CheckRequest**
 
 +---------+------------------------------------------------------------------+
-| parts   |     **parameters**                                               |
+| parts   | **parameters**                                                   |
 |         |                                                                  |
-|         |     *element* **tns:CheckRequestObj**                            |
+|         | *element* :ref:`tns:CheckRequestObj <CheckRequestObj>`           |
 +---------+------------------------------------------------------------------+
-| used by |     Operation                                                    |
-|         |     **Check**                                                    |
-|         |     in PortType                                                  |
-|         |     **VerificaVoucher**                                          |
+| used by | Operation                                                        |
+|         | `Check`_  [1]_                                                   |
+|         | in PortType                                                      |
+|         | :ref:`VerificaVoucher <VerificaVoucherPort>`  [1]_               |
 +---------+------------------------------------------------------------------+
 | source  | .. code-block:: xml                                              |
 |         |                                                                  |
@@ -700,15 +700,15 @@ message **CheckRequest**
 message **CheckResponse**
 
 +---------+-------------------------------------------------------------------+
-| parts   |     **parameters**                                                |
+| parts   | **parameters**                                                    |
 |         |                                                                   |
-|         |     *element*                                                     |
-|         |     **tns:CheckResponseObj**                                      |
+|         | *element*                                                         |
+|         | :ref:`tns:CheckResponseObj <CheckResponseObj>`                    |
 +---------+-------------------------------------------------------------------+
-| used by |     Operation                                                     |
-|         |     **Check**                                                     |
-|         |     in PortType                                                   |
-|         |     **VerificaVoucher**                                           |
+| used by | Operation                                                         |
+|         | `Check`_ [1]_                                                     |
+|         | in PortType                                                       |
+|         | :ref:`VerificaVoucher <VerificaVoucherPort>` [1]_                 |
 +---------+-------------------------------------------------------------------+
 | source  | .. code-block:: xml                                               |
 |         |                                                                   |
@@ -722,15 +722,15 @@ message **CheckResponse**
 message **ConfirmRequest**
 
 +---------+--------------------------------------------------------------------+
-| parts   |     **parameters**                                                 |
+| parts   | **parameters**                                                     |
 |         |                                                                    |
-|         |     *element*                                                      |
-|         |     **tns:ConfirmRequestObj**                                      |
+|         | *element*                                                          |
+|         | :ref:`tns:ConfirmRequestObj <ConfirmRequestObj>`                   |
 +---------+--------------------------------------------------------------------+
-| used by |     Operation                                                      |
-|         |     **Check**                                                      |
-|         |     in PortType                                                    |
-|         |     **VerificaVoucher**                                            |
+| used by | Operation                                                          |
+|         | `Check`_ [1]_                                                      |
+|         | in PortType                                                        |
+|         | :ref:`VerificaVoucher <VerificaVoucherPort>` [1]_                  |
 +---------+--------------------------------------------------------------------+
 | source  | .. code-block:: xml                                                |
 |         |                                                                    |
@@ -744,15 +744,15 @@ message **ConfirmRequest**
 message **ConfirmResponse**
 
 +---------+---------------------------------------------------------------------+
-| parts   |     **parameters**                                                  |
+| parts   | **parameters**                                                      |
 |         |                                                                     |
-|         |     *element*                                                       |
-|         |     **tns:ConfirmResponseObj**                                      |
+|         | *element*                                                           |
+|         | :ref:`tns:ConfirmResponseObj <ConfirmResponseObj>`                  |
 +---------+---------------------------------------------------------------------+
-| used by |     Operation                                                       |
-|         |     **Check**                                                       |
-|         |     in PortType                                                     |
-|         |     **VerificaVoucher**                                             |
+| used by | Operation                                                           |
+|         | `Check`_ [1]_                                                       |
+|         | in PortType                                                         |
+|         | :ref:`VerificaVoucher <VerificaVoucherPort>` [1]_                   |
 +---------+---------------------------------------------------------------------+
 | source  | .. code-block:: xml                                                 |
 |         |                                                                     |
@@ -772,7 +772,7 @@ element **CheckRequestObj**
 +------------+-------------------------------------------------------+
 | properties | content complex                                       |
 +------------+-------------------------------------------------------+
-| children   | **checkReq**                                          |
+| children   | :ref:`checkReq <checkReq>`                            |
 +------------+-------------------------------------------------------+
 | source     | .. code-block:: xml                                   |
 |            |                                                       |
@@ -788,20 +788,20 @@ element **CheckRequestObj**
 
 
 element **CheckRequestObj/checkReq**
-
-+------------+-----------------------------------------------------------+
-| diagram    | |image8|                                                  |
-+------------+-----------------------------------------------------------+
-| type       |     **tns:Check**                                         |
-+------------+-----------------------------------------------------------+
-| properties |     content complex                                       |
-+------------+-----------------------------------------------------------+
-| children   |     **tipoOperazione  codiceVoucher partitaIvaEsercente** |
-+------------+-----------------------------------------------------------+
-|            | .. code-block:: xml                                       |
-|            |                                                           |
-| source     |    <xsd:element name="checkReq" type="tns:Check"/>        |
-+------------+-----------------------------------------------------------+
+ 
++------------+-----------------------------------------------------------------------------------------------------+
+| diagram    | |image8|                                                                                            |
++------------+-----------------------------------------------------------------------------------------------------+
+| type       | :ref:`tns:Check <Check>`                                                                            |
++------------+-----------------------------------------------------------------------------------------------------+
+| properties | content complex                                                                                     |
++------------+-----------------------------------------------------------------------------------------------------+
+| children   | :ref:`tipoOperazione <tipoOp>`  :ref:`codiceVoucher <codVouc>`  :ref:`partitaIvaEsercente <pIvaEs>` |
++------------+-----------------------------------------------------------------------------------------------------+
+|            | .. code-block:: xml                                                                                 |
+|            |                                                                                                     |
+| source     |    <xsd:element name="checkReq" type="tns:Check"/>                                                  |
++------------+-----------------------------------------------------------------------------------------------------+
 
 .. _CheckResponseObj:
 
@@ -814,7 +814,7 @@ element **CheckResponseObj**
 +------------+----------------------------------------------------------------+
 | properties |     content complex                                            |
 +------------+----------------------------------------------------------------+
-| children   |     **checkResp**                                              |
+| children   | :ref:`checkResp <checkResp>`                                   |
 +------------+----------------------------------------------------------------+
 |            | .. code-block:: xml                                            |
 |            |                                                                |
@@ -828,19 +828,21 @@ element **CheckResponseObj**
 +------------+----------------------------------------------------------------+
 
 
+.. _`checkResp`:
+
 element **CheckResponseObj/checkResp**
 
 +------------+-------------------------------------------------------------+
 | diagram    | |image10|                                                   |
 +------------+-------------------------------------------------------------+
-| type       |     **tns:CheckResponse**                                   |
+| type       | :ref:`tns:CheckResponse <CheckResponse>`                    |
 +------------+-------------------------------------------------------------+
 | properties |     content complex                                         |
 +------------+-------------------------------------------------------------+
-| children   |     **nominativoBeneficiario                                |
-|            |     partitaIvaEsercente                                     |
-|            |     ambito  bene                                            |
-|            |     importo**                                               |
+| children   | :ref:`nominativoBeneficiario  <nomBen>`                     |
+|            | :ref:`partitaIvaEsercente <pIvaEs>`                         |
+|            | :ref:`ambito <ambito>`  :ref:`bene <bene>`                  |
+|            | :ref:`importo <importo>`                                    |
 +------------+-------------------------------------------------------------+
 |            | .. code-block:: xml                                         |
 |            |                                                             |
@@ -858,7 +860,7 @@ element **ConfirmRequestObj**
 +------------+---------------------------------------------------------+
 | properties |     content complex                                     |
 +------------+---------------------------------------------------------+
-| children   |     **checkReq**                                        |
+| children   | :ref:`checkReq <checkReq>`                              |
 +------------+---------------------------------------------------------+
 |            | .. code-block:: xml                                     |
 |            |                                                         |
@@ -872,16 +874,20 @@ element **ConfirmRequestObj**
 +------------+---------------------------------------------------------+
 
 
+.. _`checkReq`:
+
 element **ConfirmRequestObj/checkReq**
 
 +------------+------------------------------------------------------+
 | diagram    | |image12|                                            |
 +------------+------------------------------------------------------+
-| type       |     **tns:Confirm**                                  |
+| type       | :ref:`tns:Confirm <Confirm>`                         |
 +------------+------------------------------------------------------+
 | properties |     content complex                                  |
 +------------+------------------------------------------------------+
-| children   |     **tipoOperazione  codiceVoucher  importo**       |
+| children   | :ref:`tipoOperazione <tipoOp>`                       |
+|            | :ref:`codiceVoucher <codVouc>`                       |
+|            | :ref:`importo <importo>`                             |
 +------------+------------------------------------------------------+
 |            | .. code-block:: xml                                  |
 |            |                                                      |
@@ -899,7 +905,7 @@ element **ConfirmResponseObj**
 +------------+------------------------------------------------------------------+
 | properties |     content complex                                              |
 +------------+------------------------------------------------------------------+
-| children   |     **checkResp**                                                |
+| children   | :ref:`checkResp <checkResp>`                                     |
 +------------+------------------------------------------------------------------+
 |            | .. code-block:: xml                                              |
 |            |                                                                  |
@@ -918,11 +924,11 @@ element **ConfirmResponseObj/checkResp**
 +----------------+---------------------------------------------------------------+
 | diagram        | |image14|                                                     |
 +----------------+---------------------------------------------------------------+
-| type           |     **tns:ConfirmResponse**                                   |
+| type           | :ref:`tns:ConfirmResponse <ConfirmResponse>`                  |
 +----------------+---------------------------------------------------------------+
 |     properties |     content complex                                           |
 +----------------+---------------------------------------------------------------+
-|     children   |     **esito**                                                 |
+|     children   | :ref:`esito <esito>`                                          |
 +----------------+---------------------------------------------------------------+
 |                | .. code-block:: xml                                           |
 |                |                                                               |
@@ -938,12 +944,12 @@ complexType **Check**
 +-----------+-----------------------------------------------------------------+
 | namespace |     http://bonus.mibact.it/VerificaVoucher/                     |
 +-----------+-----------------------------------------------------------------+
-| children  |     **tipoOperazione                                            |
-|           |     codiceVoucher                                               |
-|           |     partitaIvaEsercente**                                       |
+| children  | :ref:`tipoOperazione <tipoOp>`                                  |
+|           | :ref:`codiceVoucher <codVouc>`                                  |
+|           | :ref:`partitaIvaEsercente <pIvaEs>`                             |
 +-----------+-----------------------------------------------------------------+
-| used by   |     element                                                     |
-|           |     **CheckRequestObj/checkReq**                                |
+| used by   | element                                                         |
+|           | :ref:`CheckRequestObj/checkReq <checkReq>`                      |
 +-----------+-----------------------------------------------------------------+
 |           | .. code-block:: xml                                             |
 |           |                                                                 |
@@ -959,6 +965,8 @@ complexType **Check**
 |           |     </xsd:complexType>                                          |
 +-----------+-----------------------------------------------------------------+
 
+
+.. _`tipoOp`:
 
 element **Check/tipoOperazione**
 
@@ -976,6 +984,8 @@ element **Check/tipoOperazione**
 +------------+----------------------------------------------------------+
 
 
+.. _`codVouc`:
+
 element **Check/codiceVoucher**
 
 +------------+---------------------------------------------------------+
@@ -991,6 +1001,8 @@ element **Check/codiceVoucher**
 |            |     minOccurs="1" maxOccurs="1"/>                       |
 +------------+---------------------------------------------------------+
 
+
+.. _`pIvaEs`:
 
 element **Check/partitaIvaEsercente**
         
@@ -1012,6 +1024,7 @@ element **Check/partitaIvaEsercente**
 +------------+---------------------------------------------------------------+
 
 
+.. _`CheckResponseType`:
 
 complexType **CheckResponse**
 
@@ -1020,10 +1033,14 @@ complexType **CheckResponse**
 +-----------+--------------------------------------------------------------------+
 | namespace |     http://bonus.mibact.it/VerificaVoucher/                        |
 +-----------+--------------------------------------------------------------------+
-| children  |     **nominativoBeneficiario  partitaIvaEsercente  ambito  bene**  |
+| children  | :ref:`nominativoBeneficiario <nomBen>`                             |
+|           | :ref:`partitaIvaEsercente <pIvaEs>`                                |
+|           | :ref:`ambito <ambito>`                                             |
+|           | :ref:`bene <bene>`                                                 |
+|           | :ref:`importo <importo>`                                           |
 +-----------+--------------------------------------------------------------------+
-| used by   |     element                                                        |
-|           |     **CheckResponseObj/checkResp**                                 |
+| used by   | element                                                            |
+|           | :ref:`CheckResponseObj/checkResp <checkResp>`                      |
 +-----------+--------------------------------------------------------------------+
 |           | .. code-block:: xml                                                |
 |           |                                                                    |
@@ -1043,6 +1060,8 @@ complexType **CheckResponse**
 |           |    </xsd:complexType>                                              |
 +-----------+--------------------------------------------------------------------+
 
+
+.. _`nomBen`:
 
 element **CheckResponse/nominativoBeneficiario**
 
@@ -1077,6 +1096,8 @@ element **CheckResponse/partitaIvaEsercente**
 +------------+---------------------------------------------------------------+
 
 
+.. _`ambito`:
+
 element **CheckResponse/ambito**
 
 +------------+-------------------------------------------------+
@@ -1093,6 +1114,8 @@ element **CheckResponse/ambito**
 +------------+-------------------------------------------------+
 
 
+.. _`bene`:
+
 element **CheckResponse/bene**
 
 +------------+-----------------------------------------------+
@@ -1108,6 +1131,8 @@ element **CheckResponse/bene**
 |            |    minOccurs="1" maxOccurs="1"/>              |
 +------------+-----------------------------------------------+
 
+
+.. _`importo`:
 
 element **CheckResponse/importo**
 
@@ -1133,9 +1158,11 @@ complexType **Confirm**
 +-----------+-----------------------------------------------------------+
 | namespace |     http://bonus.mibact.it/VerificaVoucher/               |
 +-----------+-----------------------------------------------------------+
-| children  |     **tipoOperazione  codiceVoucher  importo**            |
+| children  | :ref:`tipoOperazione <tipoOp>`                            |
+|           | :ref:`codiceVoucher <codVouc>`                            |
+|           | :ref:`importo <importo>`                                  |
 +-----------+-----------------------------------------------------------+
-| used by   |     element **ConfirmRequestObj/checkReq**                |
+| used by   | element :ref:`ConfirmRequestObj/checkReq <checkReq>`      |
 +-----------+-----------------------------------------------------------+
 |           | .. code-block:: xml                                       |
 |           |                                                           |
@@ -1200,6 +1227,8 @@ element **Confirm/importo**
 +------------+---------------------------------------------------+
 
 
+.. _`ConfirmResponseType`:
+
 complexType **ConfirmResponse**
 
 +-----------+--------------------------------------------------+
@@ -1207,10 +1236,10 @@ complexType **ConfirmResponse**
 +-----------+--------------------------------------------------+
 | namespace |     http://bonus.mibact.it/VerificaVoucher/      |
 +-----------+--------------------------------------------------+
-| children  |     **esito**                                    |
+| children  | :ref:`esito <esito>`                             |
 +-----------+--------------------------------------------------+
-| used by   |     element                                      |
-|           |     **ConfirmResponseObj/checkResp**             |
+| used by   | element                                          |
+|           | :ref:`ConfirmResponseObj/checkResp <checkResp>`  |
 +-----------+--------------------------------------------------+
 |           | .. code-block::xml                               |
 |           |                                                  |
@@ -1222,6 +1251,8 @@ complexType **ConfirmResponse**
 |           |    </xsd:complexType>                            |
 +-----------+--------------------------------------------------+
 
+
+.. _`esito`:
 
 element **ConfirmResponse/esito**
 
@@ -1237,6 +1268,10 @@ element **ConfirmResponse/esito**
 | source     |    <xsd:element name="esito" type="xsd:string" |
 |            |    minOccurs="1" maxOccurs="1"/>               |
 +------------+------------------------------------------------+
+
+.. [1] Nota: Codice campo modificato.
+
+
 
 .. |image0| image:: _images/esercenti/image1.png
 .. |image1| image:: _images/esercenti/image2.jpeg
