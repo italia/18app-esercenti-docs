@@ -29,7 +29,10 @@ le seguenti funzionalità:
 1. Registrazione al servizio
 ----------------------------
 
-"18app" può essere utilizzato solo dagli esercenti con credenziali di accesso ai Servizi Telematici dell'Agenzia delle Entrate e che hanno incaricato dei soggetti ad operare per proprio conto. Gli esercenti si devono, quindi, obbligatoriamente registrare alla web app per poter vendere i propri prodotti.
+"18app" può essere utilizzato solo dagli esercenti con credenziali di accesso
+ai Servizi Telematici dell'Agenzia delle Entrate e che hanno incaricato dei
+soggetti ad operare per proprio conto. Gli esercenti si devono, quindi,
+obbligatoriamente registrare alla web app per poter vendere i propri prodotti.
 
 Le fasi della registrazione:
 
@@ -62,7 +65,7 @@ categorie di prodotto e dei prodotti disponibili. I punti vendita potranno
 essere geolocalizzati nell'applicazione dei 18enni.
 
 In caso di vendita online, l'esercente dovrà prima dotarsi di un
-certificato da applicare al web-service (**vd. allegato 1**)
+certificato da applicare al web-service (vd. `Allegato 1`_)
 richiamabile dai propri sistemi per la verifica e validazione dei
 buoni di spesa.
 
@@ -73,7 +76,7 @@ In particolare dovrà:
 -  scaricare il certificato nei propri sistemi;
 
 -  verificare l'istallazione del certificato tramite specifica chiamata
-   del web-service, come da indicazioni in allegato1.
+   del web-service, come da indicazioni in `Allegato 1`_. 
 
 Si precisa che sarà possibile anche per gli esercenti che scelgono
 la vendita presso l'esercizio fisico scegliere l'utilizzo delle API
@@ -189,15 +192,13 @@ fatturazione esercente**\ " disponibili nell'applicazione 18app.
 
 .. _Allegato 1:
 
+Allegato 1 – Specifica WS online
+--------------------------------
 
-Allegato 1
-----------
-
-**Allegato 1 – Specifica WS online**
 
 
 Servizio Web per verifica voucher degli esercenti
--------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 Gli esercenti registrati al servizio "\ **18app**\ " per la vendita
@@ -295,7 +296,7 @@ beneficiario.
 
 
 Modalità di autenticazione
---------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Per consumare il web service di verifica del voucher, ogni esercente
 dovrà essere dotato di un **certificato di autenticazione** da
@@ -349,7 +350,7 @@ Il servizio risponde ai seguenti endpoint
 
 
 Codici di errore
-----------------
+~~~~~~~~~~~~~~~~
 
 La seguente tabella rappresenta i possibili errori gestiti dal
 sistema:
@@ -417,7 +418,7 @@ sistema:
 
 
 Esempi di request/response
---------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Di seguito si riportano due esempi di request e relativa response,
 sia per l'operation "Check" che per l'operation "Confirm".
@@ -507,7 +508,7 @@ Confirm response:
 
 
 WSDL VerificaVoucher.wsdl
--------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 targetnamespace: `**http://bonus.mibact.it/VerificaVoucher/** <http://bonus.mibact.it/VerificaVoucher/>`__
 
