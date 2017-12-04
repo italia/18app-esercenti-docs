@@ -1,5 +1,3 @@
-|image0|
-
 ###############################
 Guida a 18app per gli esercenti
 ###############################
@@ -25,5 +23,4 @@ Per gli esercenti
 
 
 
-.. |image0| image:: _images/logo.png
 
