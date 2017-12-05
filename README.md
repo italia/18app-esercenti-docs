@@ -1,2 +1,7 @@
 # 18app-docs-merchants
-Docs for merchants integration with 18app
+
+Repo della documentazione per l'integrazione di 18app da parte degli esercenti. 
+
+I testi originali in formato pdf possono essere trovati in calce al sito di 18app: <https://www.18app.italia.it>
+
+La documentazione in formato ReadTheDocs, compilata a partire da questo repo, può essere trovata al seguente indirizzo: <http://guida-18app.readthedocs.io>
