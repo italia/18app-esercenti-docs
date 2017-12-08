@@ -3,14 +3,14 @@
 # -*- UmbRos 2017-03-23 -*-
 
 # -- <begin> PROJECT Variables ------------------------------------------------
-settings_project_name = 'Guida 18app esercenti'
+settings_project_name = 'Guida a 18app per gli esercenti'
 settings_copyright_year = '2017'
 settings_copyright_name = 'AgID - Team Digitale'
 settings_doc_version = '1'
 settings_doc_release = '1.0'
 settings_basename = 'Guida 18app esercenti'
 settings_file_name = 'Guida 18app esercenti'
-settings_logo = 'logo.png'
+# settings_logo = 'logo.png'
 # -- <end> PROJECT Variables --------------------------------------------------
 
 
@@ -136,7 +136,7 @@ latex_documents = [
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
-latex_logo = '_images/' + settings_logo
+# latex_logo = '_images/' + settings_logo
 
 
 # -- Options for manual page output ---------------------------------------
