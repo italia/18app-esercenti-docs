@@ -6,9 +6,9 @@ Condizioni d'uso
 -----------------------
 
 Il presente servizio è volto a consentire agli esercenti
-commerciali, di incassare i buoni connessi all'utilizzo del bonus
+commerciali di incassare i buoni connessi all'utilizzo del bonus
 del valore di 500€ a coloro che abbiano compiuto diciott'anni nel
-2016 e nel 2017 e di vedersene liquidare il controvalore dal
+2016 e nel 2017, e di vedersene liquidare il controvalore dal
 Ministero dei beni e delle attività culturali e del turismo che è
 fornitore del presente servizio.
 
@@ -26,8 +26,8 @@ to.dataPubblicazioneGazzetta=2017-09-
 18&atto.codiceRedazionale=17G00146&elenco30giorni=false <http://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2017-09-18&atto.codiceRedazionale=17G00146&elenco30giorni=false>`__
 
 
-2. Registrazione ed utilizzo del servizio
------------------------------------------
+2. Registrazione e utilizzo del servizio
+----------------------------------------
 
 Per partecipare all'iniziativa ed essere inserito nell'elenco degli
 esercizi commerciali presso i quali i buoni di cui al punto
@@ -35,16 +35,16 @@ precedente possono essere utilizzati, l'esercente deve registrarsi
 al presente servizio utilizzando le credenziali, già in suo
 possesso, fornite dall'Agenzia delle Entrate, seguendo le istruzioni
 riportate qui:
-[`https://assistenza.agenziaentrate.gov.it/assistenza/index.asp?idFolder=471&idServ=1 <https://assistenza.agenziaentrate.gov.it/assistenza/index.asp?idFolder=471&amp;amp%3BidServ=1>`__].
+`https://assistenza.agenziaentrate.gov.it/assistenza/index.asp?idFolder=471&idServ=1 <https://assistenza.agenziaentrate.gov.it/assistenza/index.asp?idFolder=471&amp;amp%3BidServ=1>`_.
 
-L'esercente prende atto ed accetta che il servizio lo identificherà,
+L'esercente prende atto e accetta che il servizio lo identificherà,
 riconoscendogli accesso alle funzionalità di verifica, incasso e
-richiesta di liquidazione dei buono attraverso le citate credenziali
+richiesta di liquidazione dei buoni attraverso le citate credenziali
 e che, pertanto, chiunque entrasse fraudolentemente in possesso
 delle stesse potrà essere abilitato all'utilizzo del servizio
 medesimo al suo posto.
 
-Al riguardo l'utente prende atto di essere stato informato
+Al riguardo, l'utente prende atto di essere stato informato
 dell'obbligo di tempestiva denuncia in ogni ipotesi di perdita di
 possesso delle citate credenziali al fine di consentirne il blocco
 immediato.
@@ -52,11 +52,11 @@ immediato.
 L'esercente prende altresì atto che ai fini della liquidazione dei
 buoni incassati dovrà disporre o dotarsi di un sistema di
 fatturazione elettronica conforme alla disciplina vigente e che, in
-assenza, non potrà, in alcun modo, vedersi liquidare il valore dei
+assenza, non potrà in alcun modo vedersi liquidare il valore dei
 buoni eventualmente incassati.
 
 
-3. Incasso dei buono di spesa
+3. Incasso dei buoni di spesa
 -----------------------------
 
 L'esercente prende atto che i buoni generati attraverso il servizio
@@ -99,20 +99,20 @@ cui nome è riportato sullo stesso e/o a fronte della vendita di beni
 o servizi diversi rispetto a quelli di cui alle lettere da a) a c)
 che precedono.
 
-L'incasso dei buono e la richiesta di liquidazione del relativo
+L'incasso dei buoni e la richiesta di liquidazione del relativo
 valore, previa fatturazione elettronica al Ministero dei beni e
 delle attività culturali e del turismo, dovrà avvenire in conformità
 alle istruzioni disponibili qui:
 `www.18app.it <http://www.18app.it/>`__
 
 L'esercente si impegna a non vendere al medesimo soggetto a fronte
-dell'incasso di uno o più copie di uno stesso libro o di musica
+dell'incasso di uno o più buoni copie di uno stesso libro o di musica
 registrata, più biglietti per uno stesso spettacolo e/o più titoli
-di accesso ad uno stesso museo, mostra, evento culturale, monumento,
+di accesso a uno stesso museo, mostra, evento culturale, monumento,
 galleria, area archeologica o parco naturale, corso di musica,
 teatro e lingua straniera.
 
-L'incasso dei buono e la richiesta di liquidazione del relativo
+L'incasso dei buoni e la richiesta di liquidazione del relativo
 valore, previa fatturazione elettronica al Ministero dei beni e
 delle attività culturali e del turismo, dovrà avvenire in conformità
 alle istruzioni disponibili qui:
@@ -135,28 +135,30 @@ ulteriori sanzioni previste dalla normativa vigente.
 
 Il fornitore del servizio compirà ogni ragionevole sforzo per
 garantire il buon funzionamento dello stesso in maniera
-ininterrotta. La SOGEI (Società Generale d' Informatica) garantisce
+ininterrotta. La SOGEI (Società Generale d'Informatica) garantisce
 il valore soglia del 98% per l'operatività dell'applicazione "18app"
 attiva 7 giorni alla settimana h24.
 
+La lista aggiornata dei fornitori di Identità SPID accreditati può essere trovata qui: `http://www.agid.gov.it/infrastrutture-architetture/spid/identity-provider-accreditati <http://www.agid.gov.it/infrastrutture-architetture/spid/identity-provider-accreditati>`_.
+
 I fornitori di Identità SPID garantiscono i livelli di servizio come
-riportato sui manuali operativi approvati da AgID (Agenzia per
+riportato nei manuali operativi approvati da AgID (Agenzia per
 l'Italia Digitale):
 
 -  Aruba PEC S.p.A. - Aruba ID (pagina 48)
    `http://www.agid.gov.it/sites/default/files/manuale_operativo_3.pdf <http://www.agid.gov.it/sites/default/files/manuale_operativo_3.pdf>`__
 
 -  Infocert S.p.A. - Infocert ID (pagina 38)
-   `http://www.agid.gov.it/sites/default/files/manuale_operativo_spid_0.pdf <http://www.agid.gov.it/sites/default/files/manuale_operativo_spid_0.pdf>`__ [BROKEN LINK]
+   `http://www.agid.gov.it/sites/default/files/manuale_operativo_spid_1.pdf <http://www.agid.gov.it/sites/default/files/manuale_operativo_spid_1.pdf>`__
 
 -  Poste Italiane S.p.A. - Poste ID (pagina 54)
-   `http://www.agid.gov.it/sites/default/files/manuale_operativo.pdf <http://www.agid.gov.it/sites/default/files/manuale_operativo.pdf>`__
+   `http://www.agid.gov.it/sites/default/files/manuale_operativo_0.pdf <http://www.agid.gov.it/sites/default/files/manuale_operativo_0.pdf>`__
 
 -  Register.it S.p.A. - SpidItalia (pagina 32)
-   `http://www.agid.gov.it/sites/default/files/manuale_operativo_1.pdf <http://www.agid.gov.it/sites/default/files/manuale_operativo_1.pdf>`__
+   `http://www.agid.gov.it/sites/default/files/manuale_operativo.pdf <http://www.agid.gov.it/sites/default/files/manuale_operativo.pdf>`__
 
 -  Sielte S.p.A. - Sielte ID (pagina 27)
-   `http://www.agid.gov.it/sites/default/files/manualeoperativo.pdf <http://www.agid.gov.it/sites/default/files/manualeoperativo.pdf>`__ [BROKEN LINK]
+   `http://www.agid.gov.it/sites/default/files/manuale_operativo_spid_0.pdf <http://www.agid.gov.it/sites/default/files/manuale_operativo_spid_0.pdf>`__
 
 -  TI Trust Technologies S.r.l. - TIM ID (pagina 15)
    `http://www.agid.gov.it/sites/default/files/spidprin.tt_.somo15000.03_- _manuale_operativo_del_servizio_tim_id.pdf <http://www.agid.gov.it/sites/default/files/spidprin.tt_.somo15000.03_-_manuale_operativo_del_servizio_tim_id.pdf>`__
@@ -169,7 +171,7 @@ Il titolare del trattamento è il Ministero dei beni e delle attività
 culturali e del turismo.
 
 I dati personali dell'esercente saranno trattati esclusivamente per
-consentirgli di accedere ed utilizzare il servizio in conformità a
+consentirgli di accedere e utilizzare il servizio in conformità a
 quanto riportato nell'apposita informativa al seguente link:
 `https://www.18app.italia.it/static/18app%20infoprivacy_completa.pdf <https://www.18app.italia.it/static/18app%20infoprivacy_completa.pdf>`__
 
