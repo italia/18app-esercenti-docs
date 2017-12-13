@@ -2,7 +2,6 @@
 Linee guida per la fatturazione
 ###############################
 
-13 settembre 2017
 
 Introduzione
 ------------
@@ -23,7 +22,7 @@ seguendo le istruzioni di seguito indicate.
    pagamento.
 
 -  A tal proposito si comunica che **non è necessario l'assolvimento
-   dell'imposta di bollo.**
+   dell'imposta di bollo**.
 
 -  Al fine di limitare la possibilità di incorrere in errore
    in fase di caricamento ed invio della fattura si consiglia di
@@ -51,7 +50,7 @@ L'esercente deve predisporre la fattura in formato elettronico
 seguendo le regole tecniche stabilite per la fatturazione
 elettronica verso la pubblica amministrazione reperibili
 all'indirizzo
-`www.fatturapa.gov.it <http://www.fatturapa.gov.it/>`__
+`www.fatturapa.gov.it <http://www.fatturapa.gov.it/>`_.
 
 Dopo aver compilato la fattura è necessario firmare il file
 digitalmente prima di inviarlo al Sistema d'Interscambio secondo una
@@ -65,193 +64,187 @@ Si illustrano di seguito i passi necessari per compilare la fattura
 utilizzando il portale web
 `http://ivaservizi.agenziaentrate.gov.it/ <http://ivaservizi.agenziaentrate.gov.it/>`__
 
-Passo 1
-~~~~~~~
+Passo 1. I miei dati
+~~~~~~~~~~~~~~~~~~~~
 
 
-**I MIEI DATI**
+1. Valorizza i campi relativi all'esercente come descritto di seguito
 
-**I. Valorizzare i campi relativi all'esercente come descritto di seguito**
-
--  Partita Iva: es. 011111111
-
--  Codice Fiscale: es. 0111111111
-
--  Denominazione: es. Libreria Mario Rossi
-
--  Regime Fiscale: selezionare dal menù a tendina (Vedi tabella dei
-   regimi fiscali riportata in appendice)
-
--  Indirizzo: es. Via Esempio
-
--  N civico: es. 1
-
--  CAP: es. 00100
-
--  Comune: es. ROMA
-
--  Provincia: es.RM
-
--  Nazione: es. IT
-
+   -  Partita Iva: es. 011111111
+   
+   -  Codice Fiscale: es. 0111111111
+   
+   -  Denominazione: es. Libreria Mario Rossi
+   
+   -  Regime Fiscale: seleziona quello appropriato dal menù a tendina 
+      (Consulta i :ref:`Codici dei regimi fiscali <regimi_fiscali>` riportata in appendice)
+   
+   -  Indirizzo: es. Via Esempio
+   
+   -  N civico: es. 1
+   
+   -  CAP: es. 00100
+   
+   -  Comune: es. ROMA
+   
+   -  Provincia: es.RM
+   
+   -  Nazione: es. IT
+   
 |image0|
 
-**II. Nel campo "Altri dati" cliccare su Aggiungi**
+
+2. Nel campo **Altri dati**, clicca su **Aggiungi**
 
 |image1|
 
-**III. Spuntare "Contatti" quindi cliccare su Seleziona**
+
+3. Spunta la casella **Contatti**, quindi clicca su **Seleziona**
 
 |image2|
 
-**IV. Inserire i recapiti ai quali si potrà essere eventualmente ricontattati
-in caso di problemi di fatturazione**
 
--  Numero di telefono: es. 12345678
+4. Inserisci i recapiti ai quali potrai essere eventualmente ricontattato
+   in caso di problemi di fatturazione
 
--  E-mail: es. esempio@esempio.it
-
+   -  Numero di telefono: es. 12345678
+    
+   -  E-mail: es. esempio@esempio.it
+    
 |image3|
 
 
-Passo 2
-~~~~~~~
+Passo 2. Cliente
+~~~~~~~~~~~~~~~~
 
-**CLIENTE** (Inserire i dati della pubblica amministrazione nei
-confronti della quale si emette la fattura)
+Inserisci i dati della pubblica amministrazione nei
+confronti della quale si emette la fattura
 
-**I. Valorizzare i campi come descritto di seguito (dati reali)**
+1. Valorizza i campi come descritto di seguito (dati reali)
 
--  Codice Fiscale: 97904380587
-
--  Denominazione: Ministero dei Beni e delle Attività Culturali e del
-   Turismo
-
--  Indirizzo: Via del Collegio Romano
-
--  Numero Civico: 27
-
--  Cap: 00186
-
--  Comune: Roma
-
--  Provincia: RM
-
--  Nazione: IT
-
--  Codice Destinatario: CY0MHE
-
+   -  Codice Fiscale: 97904380587
+   
+   -  Denominazione: Ministero dei Beni e delle Attività Culturali e del
+      Turismo
+   
+   -  Indirizzo: Via del Collegio Romano
+   
+   -  Numero Civico: 27
+   
+   -  Cap: 00186
+   
+   -  Comune: Roma
+   
+   -  Provincia: RM
+   
+   -  Nazione: IT
+   
+   -  Codice Destinatario: CY0MHE
+   
 |image4|
+   
+   Quindi clicca su **Vai a Dati Fattura**
 
-**Quindi cliccare su > Vai a Dati Fattura**
+Passo 3. Dati della fattura
 
-Passo 3
-~~~~~~~
+Inserisci i dati della fattura
 
+1. Valorizza i campi come descritto di seguito
 
-**DATI DELLA FATTURA** (Inserisci i dati della fattura)
-
-**I. Valorizzare i campi come descritto di seguito**
-
--  Tipo documento: Dal menù a tendina selezionare <Fattura>
-
--  Numero: Numero che identifica univocamente la fattura
-
--  Data: Inserire data
+   -  Tipo documento: Dal menù a tendina seleziona **Fattura**
+   
+   -  Numero: Numero che identifica univocamente la fattura
+   
+   -  Data: Inserire data
 
 |image5|
 
-**II. Nel campo Beni e Servizi cliccare su Aggiungi**
+2. Nel campo Beni e Servizi cliccare su **Aggiungi**
 
-**III. Valorizzare i campi come descritto di seguito**
+3. Valorizza i campi come descritto di seguito
 
--  Descrizione: Pagamento Buono
-
--  Quantità: 1
-
--  Prezzo unitario: Inserire importo in euro del singolo buono es.
-   10,00
-
--  Aliquota IVA: 0%
-
--  Natura: Non soggette 
+   -  Descrizione: Pagamento Buono
+   
+   -  Quantità: 1
+   
+   -  Prezzo unitario: Inserire importo in euro del singolo buono es.
+      10,00
+   
+   -  Aliquota IVA: 0%
+   
+   -  Natura: Non soggette 
         
-Quindi cliccare su > **Altri Dati**
+   Quindi clicca su **Altri Dati**
 
 |image6|
 
-**IV. Valorizzare i campi come descritto di seguito**
+4. Valorizza i campi come descritto di seguito
 
--  Codice Tipo: 18APP
-
--  Codice Valore: **Inserire esclusivamente il codice del buono
-   (sensibile alla differenza tra caratteri maiuscoli e minuscoli)
-   senza ulteriori valori (come riportato nella successiva
-   immagine).** (Campo obbligatorio al fine di ottenere il rimborso per la fattura.
-   Attenzione: alcuni software potrebbero riportare campi nominati
-   diversamente.)
+   -  Codice Tipo: 18APP
    
-   **NB:** Per prevenire il rischio di errore
-   suggeriamo di inserire i codici dei buoni attraverso le
-   funzionalità di copia/incolla direttamente dal portale.
-
-**Quindi cliccare su Salva**
-
+   -  Codice Valore: **Inserire esclusivamente il codice del buono
+      (sensibile alla differenza tra caratteri maiuscoli e minuscoli)
+      senza ulteriori valori (come riportato nella successiva
+      immagine).** (Campo obbligatorio al fine di ottenere il rimborso per la fattura.
+      Attenzione: alcuni software potrebbero riportare campi nominati
+      diversamente.)
+      
+      **NB:** Per prevenire il rischio di errore
+      suggeriamo di inserire i codici dei buoni attraverso le
+      funzionalità di copia/incolla direttamente dal portale.
+   
 |image7|
 
-**È possibile inserire in fattura più di un buono cliccando di
-nuovo su <Aggiungi> nel Campo Beni e Servizi**
+   Quindi clicca su **Salva**
 
 
-.. nel-campo-altri-dati-cliccare-su-aggiungi-1:
+   È possibile inserire in fattura più di un buono cliccando
+   nuovamente su **Aggiungi** nel Campo Beni e Servizi
 
-**V. Nel campo Altri dati cliccare su Aggiungi**
+
+5. Nel campo Altri dati clicca su **Aggiungi**
 
 |image8|
 
-**VI. Spuntare "Dati di Pagamento" quindi cliccare su Seleziona**
+6. Spunta la casella **Dati di Pagamento**, quindi clicca su **Seleziona**
 
 |image9|
 
-**VII. Inserire i dati relativi al pagamento come descritto di seguito:**
+7. Inserisci i dati relativi al pagamento come descritto di seguito:
 
--  Condizioni pagamento: Pagamento completo
-
--  Beneficiario: Inserire il beneficiario es. Mario Rossi
-
--  Modalità di pagamento: Bonifico
-
--  Importo Pagamento: Inserire importo totale della fattura
-
--  IBAN: Inserire IBAN es. IT0000000000000000 
+   -  Condizioni pagamento: Pagamento completo
    
-   (**Attenzione**: L'omissione di
-   IBAN o la sua errata compilazione non è segnalata come errore dal sistema.
-   Accertarsi di averlo compilato correttamente prima di inviare la fattura.)
+   -  Beneficiario: Inserire il beneficiario es. Mario Rossi
+   
+   -  Modalità di pagamento: Bonifico
+   
+   -  Importo Pagamento: Inserire importo totale della fattura
+   
+   -  IBAN: Inserire IBAN es. IT0000000000000000 
+      
+      (**Attenzione**: L'omissione di
+      IBAN o la sua errata compilazione non è segnalata come errore dal sistema.
+      Accertarsi di averlo compilato correttamente prima di inviare la fattura.)
 
 |image10|
 
-**Quindi cliccare su >Verifica Dati**
+   Quindi clicca su **Verifica Dati**
+
+Passo 4. Verifica dei dati
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-Passo 4
-~~~~~~~
+1. Nel campo Riepilogo importi per aliquota inserisci:
 
-**VERIFICA DATI**
-
-**I. Nel campo Riepilogo Importi Aliquota inserire:**
-
-o Rif. Normativo: Art. 2 DPR 633/72
+   - Rif. normativo: Art. 2 DPR 633/72
 
 |image11|
 
-Quindi cliccare su >\ **Vai a Riepilogo**
+   Quindi clicca su **Vai a Riepilogo**
 
+Passo 5. Dati di riepilogo
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Passo 5
-~~~~~~~
-
-**DATI DI RIEPILOGO**
 
 In questa sezione è possibile verificare le informazioni inserite e
 scaricare il file *XML* da firmare digitalmente e da trasmettere
@@ -261,7 +254,7 @@ Si raccomanda di verificare la correttezza formale della fattura
 prodotta prima di firmarla digitalmente e di inviarla al sistema
 d'interscambio.
 
-A tal fine, cliccando su "**Controlla**" è possibile accertare che
+A tal fine, cliccando su **Controlla** è possibile accertare che
 la fattura non contenga errori.
 
 |image12|
@@ -280,7 +273,7 @@ negativo, la relativa notifica contiene anche le motivazioni del
 rigetto; in caso positivo, le fatture sono mandate al pagamento con
 bonifico sull'IBAN indicato dal beneficiario. La liquidazione
 avviene entro 30 giorni dalla presa in carico della fattura. A
-pagamento effettuato verrà inviata una mail automatica di notifica
+pagamento effettuato verrà inviata un'e-mail automatica di notifica
 di avvenuto accredito. A tal proposito si ricorda di
 valorizzare la sezione "Contatti" all'interno della fattura
 elettronica, inserendo l'indirizzo e-mail.
@@ -314,80 +307,82 @@ seguenti recapiti:
 tel. 06/85.796.338
 
 email: `18app@consap.it <mailto:18app@consap.it>`__ (Utilizzabile
-esclusivamente da mail ordinaria. Per motivi tecnici non saranno
+esclusivamente da posta elettronica ordinaria. Per motivi tecnici non saranno
 riscontrati messaggi inviati da PEC.)
 
 
-Appendice 1 - Codici dei Regimi fiscali
+.. _`regimi_fiscali`:
+
+Appendice 1. Codici dei regimi fiscali
 ---------------------------------------
 
-+-----------------------------------+-----------------------------------+
-|     **Codice**                    | **Descrizione**                   |
-+===================================+===================================+
-|     **RF01**                      | Ordinario                         |
-+-----------------------------------+-----------------------------------+
-|     **RF02**                      | Contribuenti minimi (art.1,       |
-|                                   | c.96-117, L. 244/07)              |
-+-----------------------------------+-----------------------------------+
-|     **RF03**                      | Nuove iniziative produttive       |
-|                                   | (art.13, L. 388/00)               |
-+-----------------------------------+-----------------------------------+
-|     **RF04**                      | Agricoltura e attività connesse e |
-|                                   | pesca (artt.34 e 34-bis, DPR      |
-|                                   | 633/72)                           |
-+-----------------------------------+-----------------------------------+
-|     **RF05**                      | Vendita sali e tabacchi (art.74,  |
-|                                   | c.1, DPR. 633/72)                 |
-+-----------------------------------+-----------------------------------+
-|     **RF06**                      | Commercio fiammiferi (art.74,     |
-|                                   | c.1, DPR 633/72)                  |
-+-----------------------------------+-----------------------------------+
-|     **RF07**                      | Editoria (art.74, c.1, DPR        |
-|                                   | 633/72)                           |
-+-----------------------------------+-----------------------------------+
-|     **RF08**                      | Gestione servizi telefonia        |
-|                                   | pubblica (art.74, c.1, DPR        |
-|                                   | 633/72)                           |
-+-----------------------------------+-----------------------------------+
-|     **RF09**                      | Rivendita documenti di trasporto  |
-|                                   | pubblico e di sosta (art.74, c.1, |
-|                                   | DPR 633/72)                       |
-+-----------------------------------+-----------------------------------+
-|     **RF10**                      | Intrattenimenti, giochi e altre   |
-|                                   | attività di cui alla tariffa      |
-|                                   | allegata al DPR 640/72 (art.74,   |
-|                                   | c.6, DPR 633/72)                  |
-+-----------------------------------+-----------------------------------+
-|     **RF11**                      | Agenzie viaggi e turismo          |
-|                                   | (art.74-ter, DPR 633/72)          |
-+-----------------------------------+-----------------------------------+
-|     **RF12**                      | Agriturismo (art.5, c.2, L.       |
-|                                   | 413/91)                           |
-+-----------------------------------+-----------------------------------+
-|     **RF13**                      | Vendite a domicilio (art.25-bis,  |
-|                                   | c.6, DPR 600/73)                  |
-+-----------------------------------+-----------------------------------+
-|     **RF14**                      | Rivendita beni usati, oggetti     |
-|                                   | d'arte, d'antiquariato o da       |
-|                                   | collezione (art.36, DL 41/95)     |
-+-----------------------------------+-----------------------------------+
-|     **RF15**                      | Agenzie di vendite all'asta di    |
-|                                   | oggetti d'arte, antiquariato o da |
-|                                   | collezione (art.40-bis, DL 41/95) |
-+-----------------------------------+-----------------------------------+
-|     **RF16**                      | IVA per cassa P.A. (art.6, c.5,   |
-|                                   | DPR 633/72)                       |
-+-----------------------------------+-----------------------------------+
-|     **RF17**                      | IVA per cassa (art. 32-bis, DL    |
-|                                   | 83/2012)                          |
-+-----------------------------------+-----------------------------------+
-|     **RF18**                      | Altro                             |
-+-----------------------------------+-----------------------------------+
-|     **RF19**                      | Regime forfettario (art.1,        |
-|                                   | c.54-89, L. 190/2014)             |
-+-----------------------------------+-----------------------------------+
++----------------+-------------------------------------+
+|     **Codice** | **Descrizione**                     |
++================+=====================================+
+|     **RF01**   | Ordinario                           |
++----------------+-------------------------------------+
+|     **RF02**   | Contribuenti minimi (art. 1,        |
+|                | c. 96-117, L. 244/07)               |
++----------------+-------------------------------------+
+|     **RF03**   | Nuove iniziative produttive         |
+|                | (art. 13, L. 388/00)                |
++----------------+-------------------------------------+
+|     **RF04**   | Agricoltura e attività connesse e   |
+|                | pesca (artt. 34 e 34-bis,           |
+|                | DPR 633/72)                         |
++----------------+-------------------------------------+
+|     **RF05**   | Vendita sali e tabacchi (art. 74,   |
+|                | c. 1, DPR. 633/72)                  |
++----------------+-------------------------------------+
+|     **RF06**   | Commercio fiammiferi (art. 74,      |
+|                | c. 1, DPR 633/72)                   |
++----------------+-------------------------------------+
+|     **RF07**   | Editoria (art. 74, c. 1, DPR        |
+|                | 633/72)                             |
++----------------+-------------------------------------+
+|     **RF08**   | Gestione servizi telefonia          |
+|                | pubblica (art. 74, c. 1, DPR        |
+|                | 633/72)                             |
++----------------+-------------------------------------+
+|     **RF09**   | Rivendita documenti di trasporto    |
+|                | pubblico e di sosta (art. 74, c. 1, |
+|                | DPR 633/72)                         |
++----------------+-------------------------------------+
+|     **RF10**   | Intrattenimenti, giochi e altre     |
+|                | attività di cui alla tariffa        |
+|                | allegata al DPR 640/72 (art. 74,    |
+|                | c. 6, DPR 633/72)                   |
++----------------+-------------------------------------+
+|     **RF11**   | Agenzie viaggi e turismo            |
+|                | (art. 74-ter, DPR 633/72)           |
++----------------+-------------------------------------+
+|     **RF12**   | Agriturismo (art. 5, c. 2,          |
+|                | L. 413/91)                          |
++----------------+-------------------------------------+
+|     **RF13**   | Vendite a domicilio (art.25-bis,    |
+|                | c.6, DPR 600/73)                    |
++----------------+-------------------------------------+
+|     **RF14**   | Rivendita beni usati, oggetti       |
+|                | d'arte, d'antiquariato o da         |
+|                | collezione (art.36, DL 41/95)       |
++----------------+-------------------------------------+
+|     **RF15**   | Agenzie di vendite all'asta di      |
+|                | oggetti d'arte, antiquariato o da   |
+|                | collezione (art.40-bis, DL 41/95)   |
++----------------+-------------------------------------+
+|     **RF16**   | IVA per cassa P.A. (art.6, c.5,     |
+|                | DPR 633/72)                         |
++----------------+-------------------------------------+
+|     **RF17**   | IVA per cassa (art. 32-bis, DL      |
+|                | 83/2012)                            |
++----------------+-------------------------------------+
+|     **RF18**   | Altro                               |
++----------------+-------------------------------------+
+|     **RF19**   | Regime forfetario (art.1,           |
+|                | c.54-89, L. 190/2014)               |
++----------------+-------------------------------------+
 
-Appendice 2 - Esempio di fattura elettronica (formato .xml) compilata per l'iniziativa 18APP
+Appendice 2. Esempio di fattura elettronica (formato .xml) compilata per l'iniziativa 18APP
 --------------------------------------------------------------------------------------------
 
 
@@ -497,7 +492,7 @@ guida specifiche fornite per l'iniziativa 18APP.
     </ns2:FatturaElettronica>
 
 
-Appendice 3: regole tecniche di dettaglio per la compilazione della fattura
+Appendice 3. Regole tecniche di dettaglio per la compilazione della fattura
 ---------------------------------------------------------------------------
 
 La valorizzazione degli elementi del tracciato xml deve rispettare i
