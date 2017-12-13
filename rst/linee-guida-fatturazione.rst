@@ -1,3 +1,5 @@
+.. _`linee-guida-fatturazione`:
+
 ###############################
 Linee guida per la fatturazione
 ###############################

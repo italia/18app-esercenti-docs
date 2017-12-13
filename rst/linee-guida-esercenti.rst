@@ -1,11 +1,12 @@
-Linee guida per esercenti
-=========================
+Linee guida per gli esercenti
+=============================
+
 
 La Legge n. 232 dell'11 dicembre 2016 assegna un bonus di 500 euro ai cittadini
 residenti in Italia (in possesso, ove previsto, di permesso di soggiorno in
 corso di validità) che compiono diciotto anni nel 2017.
 
-La gestione del bonus può avvenire tramite qualunque tipo device
+La gestione del bonus può avvenire tramite qualunque tipo di dispositivo 
 (smartphone, tablet, computer) connesso ad Internet, sia da parte
 dei diciottenni che da parte degli esercenti (soggetti pubblici o
 privati) presso i quali acquistare i prodotti previsti riconducibili
@@ -19,7 +20,7 @@ le seguenti funzionalità:
 
 1. registrazione al servizio;
 
-2. vendita attraverso esercizio fisico oppure on line
+2. vendita attraverso l'esercizio fisico oppure on line
 
 3. controllo e riscossione dei buoni di acquisto
 
@@ -29,19 +30,19 @@ le seguenti funzionalità:
 1. Registrazione al servizio
 ----------------------------
 
-"18app" può essere utilizzato solo dagli esercenti con credenziali di accesso
+L'applicazione 18app può essere utilizzata solo dagli esercenti con credenziali di accesso
 ai Servizi Telematici dell'Agenzia delle Entrate e che hanno incaricato dei
 soggetti ad operare per proprio conto. Gli esercenti si devono, quindi,
 obbligatoriamente registrare alla web app per poter vendere i propri prodotti.
 
 Le fasi della registrazione:
 
--  **entro il 30 giugno 2018** registrazione alla web app con
+-  **entro il 30 giugno 2018**: registrazione alla web app con
    indicazione dei dati generali dell'esercente (dati anagrafici, di
-   residenza, codice ATECO, recapiti telefonici, mail ed eventuale sito
+   residenza, codice ATECO, recapiti telefonici, e-mail ed eventuale sito
    internet, accettazione della normativa vigente).
 
--  **entro il 30 giugno 2018** indicazione di categorie di prodotto e
+-  **entro il 30 giugno 2018**: indicazione di categorie di prodotto e
    prodotti vendibili sia nel proprio esercizio fisico che in quello
    online.
 
@@ -66,7 +67,7 @@ essere geolocalizzati nell'applicazione dei 18enni.
 
 In caso di vendita online, l'esercente dovrà prima dotarsi di un
 certificato da applicare al web-service (vd. `Allegato 1`_)
-richiamabile dai propri sistemi per la verifica e validazione dei
+richiamabile dai propri sistemi per la verifica e la validazione dei
 buoni di spesa.
 
 In particolare dovrà:
@@ -75,13 +76,13 @@ In particolare dovrà:
 
 -  scaricare il certificato nei propri sistemi;
 
--  verificare l'istallazione del certificato tramite specifica chiamata
+-  verificare l'installazione del certificato tramite specifica chiamata
    del web-service, come da indicazioni in `Allegato 1`_. 
 
-Si precisa che sarà possibile anche per gli esercenti che scelgono
-la vendita presso l'esercizio fisico scegliere l'utilizzo delle API
-services che prevedono il download ed istallazione di un certificato
-nei propri sistemi, secondo il procedimento descritto per la vendità
+Anche gli esercenti che scelgono di vendere 
+presso l'esercizio fisico potranno scegliere di utilizzare degli API
+services che prevedono il download e l'installazione di un certificato
+nei propri sistemi, secondo il procedimento descritto per la vendita
 online.
 
 Si precisa, inoltre, che per gli esercenti che utilizzeranno il
@@ -89,15 +90,14 @@ web-services per la validazione dei buoni sono previsti i seguenti
 stati di lavorazione legati alle attività di configurazione dei
 propri sistemi in cui dovrà essere istallato il certificato:
 
-+----------------+--------+-------------------------------------------------------+
-| -  da attivare |     -> |     certificato da scaricare dall' applicazione 18app |
-+----------------+--------+-------------------------------------------------------+
-| -  attivabile  |     -> |     certificato scaricato, ma non istallato           |
-+----------------+--------+-------------------------------------------------------+
-| -  attivo      |     -> |     certificato istallato (vd. `Allegato 1`_).        |
-+----------------+--------+-------------------------------------------------------+
++-----------------+------------------------------------------------------+
+| **da attivare** |     certificato da scaricare dall'applicazione 18app |
++-----------------+------------------------------------------------------+
+| **attivabile**  |     certificato scaricato, ma non installato         |
++-----------------+------------------------------------------------------+
+| **attivo**      |     certificato installato (vd. `Allegato 1`_)       |
++-----------------+------------------------------------------------------+
 
-..
 
 
 3. Controllo e riscossione dei buoni d'acquisto
@@ -108,7 +108,7 @@ verificare e riscuotere i buoni generati dai 18enni nati nel 1999 nelle
 funzionalità dell'applicazione loro dedicate ed identificati da uno specifico
 codice.
 
-La verifica e validazione è differente in caso di vendita
+Verifica e validazione sono differenti in caso di vendita
 nell'esercizio fisico oppure online.
 
 
@@ -116,7 +116,7 @@ Verifica in caso di vendita nell'esercizio fisico
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-Nell'area non autenticata della web app gli esercenti possono;
+Nell'area non autenticata della web app gli esercenti possono:
 
 -  indicare il codice del buono esibito dal beneficiario insieme al
    "codice esercente";
@@ -144,7 +144,7 @@ nell'`Allegato 1`_.
 Gli esercenti possono visualizzare la lista dei buoni riscossi
 utilizzando eventuali filtri di ricerca per data di generazione del
 buono e/o per tipologia di vendita (esercizio fisico oppure online),
-per categoria di prodotto e per buoni fatturati o data fatturare.
+per categoria di prodotto e per buoni fatturati o data di fatturazione.
 
 Nelle liste verrano visualizzate le seguenti informazioni:
 
@@ -173,7 +173,8 @@ convalidati coincide con quello delle fatture.
 4. Fatturazione
 ---------------
 
-Agli esercenti viene riconosciuto un credito per ogni buono riscosso da dichiarare in sede di fatturazione elettronica.
+Agli esercenti viene riconosciuto un credito per ogni buono riscosso da
+dichiarare in sede di fatturazione elettronica.
 
 L'esercente dovrà preparare la fattura in formato elettronico
 secondo il tracciato stabilito per la fatturazione elettronica verso
@@ -185,14 +186,14 @@ Norme e regole, Documentazione FatturaPA).
 La valorizzazione degli elementi del tracciato xml dovrà rispettare
 i requisiti formali e di obbligatorietà previsti e, con particolare
 riferimento al blocco 2.2.1 <DettaglioLinee>, dovrà tener conto
-delle indicazioni riportate nel documento "\ **Linee guida
-fatturazione esercente**\ " disponibili nell'applicazione 18app.
+delle indicazioni riportate nelle :ref:`Linee guida
+per la fatturazione <linee-guida-fatturazione>`.
 
 
 
 .. _Allegato 1:
 
-Allegato 1 – Specifica WS online
+Allegato 1. Specifica WS online
 --------------------------------
 
 
@@ -201,7 +202,7 @@ Servizio Web per verifica voucher degli esercenti
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-Gli esercenti registrati al servizio "\ **18app**\ " per la vendita
+Gli esercenti registrati al servizio 18app per la vendita
 online potranno validare nei propri sistemi i voucher di acquisto di
 beni da parte dei 18enni utilizzando uno specifico servizio web di
 cui si forniscono di seguito le specifiche di utilizzo.
@@ -209,10 +210,10 @@ cui si forniscono di seguito le specifiche di utilizzo.
 **In merito agli endpoint, si precisa che al momento l'indirizzo referenziato nel wsdl** 
 (`http://bonus.mibact.it/VerificaVoucher <http://bonus.mibact.it/VerificaVoucher>`__) **è provvisorio.** 
 
-Il servizio web di **verifica del voucher** da parte degli esercenti
-rende disponibili 2 principali operazioni ("\ **Check** \ " e
-"\ **Confirm**\ "). La seguente descrizione delle operazioni è
-necessaria per valorizzare adeguatamente i campi di input. Pertanto
+Il servizio web di verifica del voucher da parte degli esercenti
+rende disponibili due operazioni, **Check** e
+**Confirm**. La seguente descrizione delle operazioni è
+necessaria per valorizzare adeguatamente i campi di input. Pertanto,
 le operazioni esposte dall'interfaccia wsdl possono essere descritte
 come segue:
 
@@ -268,17 +269,16 @@ tra i vari sistemi coinvolti, nei casi fin qui descritti:
 
 **2. Confirm**
 
-+-------------+---------------------+---------------------+
-|     INPUT:  |     tipo operazione |     *"1"*           |
-|             |                     |                     |
-+-------------+---------------------+---------------------+
-|             |     codice voucher  |                     |
-+-------------+---------------------+---------------------+
-|             |     importo         |     *confermato     |
-|             |                     |     dall'esercente* |
-+-------------+---------------------+---------------------+
-|     OUTPUT: |     esito           |                     |
-+-------------+---------------------+---------------------+
++-------------+---------------------+---------------------------------+
+|     INPUT:  |     tipo operazione |     *"1"*                       |
+|             |                     |                                 |
++-------------+---------------------+---------------------------------+
+|             |     codice voucher  |                                 |
++-------------+---------------------+---------------------------------+
+|             |     importo         |     *confermato dall'esercente* |
++-------------+---------------------+---------------------------------+
+|     OUTPUT: |     esito           |                                 |
++-------------+---------------------+---------------------------------+
 
 
 In questa versione del servizio il **tipo operazione** verrà
@@ -309,12 +309,12 @@ direttamente tramite l'applicazione web dedicata agli esercenti, in
 area autenticata. In particolare il processo di generazione del
 certificato prevede due step:
 
-1. Il primo step di richiesta del certificato; a seguito di questa
-operazione il sistema prende in carico la richiesta.
+1. Richiesta del certificato: a seguito di questa
+   operazione il sistema prende in carico la richiesta.
 
-2. Il secondo step di verifica esito della richiesta; questa operazione
-controlla se è pronto il certificato emesso da CA dedicata ed
-eventualmente lo rende disponibile per il download.
+2. Verifica dell'esito della richiesta: questa operazione
+   controlla se è pronto il certificato emesso da CA dedicata ed
+   eventualmente lo rende disponibile per il download.
 
 Durante il primo step sarà necessario caricare un file .der
 rappresentante la richiesta di certificato alla CA dedicata al
@@ -324,10 +324,10 @@ progetto. Tale csr deve presentare le seguenti caratteristiche:
 
 - Lunghezza chiavi: 2048 bit
 
-Una volta scaricato il certificato X509 va installato, insieme alla
+Una volta scaricato, il certificato X509 va installato, insieme alla
 corrispondente chiave privata, nel client utilizzato per il servizio
 di verifica voucher. Pertanto l'evento di download del certificato
-non può rappresentare la definitiva attivazione dell'esercente. E'
+non può rappresentare la definitiva attivazione dell'esercente. È 
 stato previsto uno step di attivazione, di tipo "Check" con i
 seguenti valori di input:
 
@@ -335,12 +335,14 @@ seguenti valori di input:
 
 - codice voucher = 11aa22bb
 
-Questa operazione equivale ad una transazione di attivazione, il cui
+Questa operazione equivale a una transazione di attivazione, il cui
 unico effetto è quello di portare l'esercente nello stato attivo. Da
 questo momento in poi i beneficiari potranno generare voucher reali
 per tale esercente.
 
-Endpoint del servizio
+
+**Endpoint del servizio**
+
 
 Il servizio risponde ai seguenti endpoint
 `https://wstest.18app.italia.it/VerificaVoucherWEB/VerificaVoucher <https://wstest.18app.italia.it/VerificaVoucherWEB/VerificaVoucher>`__
@@ -355,75 +357,76 @@ Codici di errore
 La seguente tabella rappresenta i possibili errori gestiti dal
 sistema:
 
-+-----------------------------------+-----------------------------------+
-|     **Codice/Code**               |     **Descrizione/Description**   |
-+===================================+===================================+
-|     01                            |     Errore nel formato dei        |
-|                                   |     parametri in input,           |
-|                                   |     verificarli e riprovare       |
-+-----------------------------------+-----------------------------------+
-|                                   |     Error in the input            |
-|                                   |     parameters, check and try     |
-|                                   |     again                         |
-+-----------------------------------+-----------------------------------+
-|     02                            |     Il buono richiesto non è      |
-|                                   |     disponibile sul sistema o è   |
-|                                   |     già stato riscosso o          |
-|                                   |     annullato                     |
-+-----------------------------------+-----------------------------------+
-|                                   |     The requested voucher is not  |
-|                                   |     available on the system. It   |
-|                                   |     could be already collected or |
-|                                   |     canceled                      |
-+-----------------------------------+-----------------------------------+
-|     03                            |     Impossibile attivare          |
-|                                   |     l'esercente. Verificare che i |
-|                                   |     dati siano corretti e che     |
-|                                   |     l'esercente non sia già stato |
-|                                   |     attivato                      |
-+-----------------------------------+-----------------------------------+
-|                                   |     Impossible to activate the    |
-|                                   |     user. Please verify input     |
-|                                   |     parameters and that the user  |
-|                                   |     has not been already          |
-|                                   |     activated.                    |
-+-----------------------------------+-----------------------------------+
-|     04                            |     L'importo richiesto è         |
-|                                   |     superiore all'importo del     |
-|                                   |     buono selezionato             |
-+-----------------------------------+-----------------------------------+
-|                                   |     The amount claimed is greater |
-|                                   |     than the amount of the        |
-|                                   |     selected voucher              |
-+-----------------------------------+-----------------------------------+
-|     05                            |     Non si può verificare o       |
-|                                   |     consumare il buono poichè     |
-|                                   |     l'esercente risulta non       |
-|                                   |     attivo                        |
-+-----------------------------------+-----------------------------------+
-|                                   |     User inactive, voucher        |
-|                                   |     impossible to verify.         |
-+-----------------------------------+-----------------------------------+
-|     06                            |     Ambito e bene del buono non   |
-|                                   |     coincidono con ambiti e beni  |
-|                                   |     trattati dall'esercente       |
-+-----------------------------------+-----------------------------------+
-|                                   |     Category and type of this     |
-|                                   |     voucher are not aligned with  |
-|                                   |     category and type managed by  |
-|                                   |     the user.                     |
-+-----------------------------------+-----------------------------------+
++-----------------+-----------------------------------+
+| **Codice/Code** |     **Descrizione/Description**   |
++=================+===================================+
+|     01          |     Errore nel formato dei        |
+|                 |     parametri in input,           |
+|                 |     verificarli e riprovare       |
++-----------------+-----------------------------------+
+|                 |     Error in the input            |
+|                 |     parameters, check and try     |
+|                 |     again                         |
++-----------------+-----------------------------------+
+|     02          |     Il buono richiesto non è      |
+|                 |     disponibile sul sistema o è   |
+|                 |     già stato riscosso o          |
+|                 |     annullato                     |
++-----------------+-----------------------------------+
+|                 |     The requested voucher is not  |
+|                 |     available on the system. It   |
+|                 |     could be already collected or |
+|                 |     canceled                      |
++-----------------+-----------------------------------+
+|     03          |     Impossibile attivare          |
+|                 |     l'esercente. Verificare che i |
+|                 |     dati siano corretti e che     |
+|                 |     l'esercente non sia già stato |
+|                 |     attivato                      |
++-----------------+-----------------------------------+
+|                 |     Impossible to activate the    |
+|                 |     user. Please verify input     |
+|                 |     parameters and that the user  |
+|                 |     has not been already          |
+|                 |     activated.                    |
++-----------------+-----------------------------------+
+|     04          |     L'importo richiesto è         |
+|                 |     superiore all'importo del     |
+|                 |     buono selezionato             |
++-----------------+-----------------------------------+
+|                 |     The amount claimed is greater |
+|                 |     than the amount of the        |
+|                 |     selected voucher              |
++-----------------+-----------------------------------+
+|     05          |     Non si può verificare o       |
+|                 |     consumare il buono poiché     |
+|                 |     l'esercente risulta non       |
+|                 |     attivo                        |
++-----------------+-----------------------------------+
+|                 |     User inactive, voucher        |
+|                 |     impossible to verify.         |
++-----------------+-----------------------------------+
+|     06          |     Ambito e bene del buono non   |
+|                 |     coincidono con ambiti e beni  |
+|                 |     trattati dall'esercente       |
++-----------------+-----------------------------------+
+|                 |     Category and type of this     |
+|                 |     voucher are not aligned with  |
+|                 |     category and type managed by  |
+|                 |     the user.                     |
++-----------------+-----------------------------------+
 
-|image1|
 
 
 Esempi di request/response
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Di seguito si riportano due esempi di request e relativa response,
-sia per l'operation "Check" che per l'operation "Confirm".
+sia per l'operation **Check** che per l'operation **Confirm**.
 
-"Check"
+**Check**
+
+|image1|
 
 Check request:
 
@@ -466,7 +469,7 @@ Check response:
     </soapenv:Body>
     </soapenv:Envelope>
 
-"Confirm"
+**Confirm**
 
 |image2|
 
