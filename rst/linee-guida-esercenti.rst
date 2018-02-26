@@ -1274,8 +1274,8 @@ element **ConfirmResponse/esito**
 
 
 .. |image0| image:: _images/esercenti/image1.png
-.. |image1| image:: _images/esercenti/image2.jpeg
-.. |image2| image:: _images/esercenti/image3.jpeg
+.. |image1| image:: _images/esercenti/image2.png
+.. |image2| image:: _images/esercenti/image3.png
 .. |image4| image:: _images/esercenti/image4.png
    :width: 3.23748in
    :height: 0.49875in
