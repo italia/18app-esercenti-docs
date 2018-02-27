@@ -8,10 +8,10 @@ from recommonmark.parser import CommonMarkParser
 
 # -- PROJECT Variables ----------------------------------------------------
 settings_project_name = 'Guida a 18app per gli esercenti'
-settings_copyright_copyleft = 'Creative Commons Attribution 4.0'
+settings_copyright_copyleft = 'AgID - Team Digitale'
 settings_editor_name = 'AgID - Team Digitale'
-settings_doc_version = '1'
-settings_doc_release = '1.0'
+settings_doc_version = 'version: latest'
+settings_doc_release = 'version: latest'
 settings_basename = 'guida-18app-esercenti'
 settings_file_name = 'guida-18app-esercenti'
 
