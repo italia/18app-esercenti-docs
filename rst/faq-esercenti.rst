@@ -17,7 +17,7 @@ validità) che compiono i diciotto anni di età nell'anno 2017.
 
 È realizzata per:
 
--  consentire agli esercenti di registrarsi al servizio ed offrire ai
+-  consentire agli esercenti di registrarsi al servizio e offrire ai
    diciottenni la vendita dei beni previsti dalla normativa;
 
 -  consentire ai diciottenni di generare i buoni di acquisto dei beni
@@ -57,7 +57,7 @@ h. Corsi di musica, di teatro o di lingua straniera
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Sì, è necessario verificare l'identità del beneficiario tramite il
-confronto del nome e cognome presenti nel buono d'acquisto ed i
+confronto del nome e cognome presenti nel buono d'acquisto e i
 riferimenti del documento d'identità esibito dal diciottenne.
 
 
@@ -78,7 +78,7 @@ i rapporti con il cliente, fermo restando che non potrai restituirgli
 denaro o consentire l'acquisto di beni differenti da quelli previsti
 dalla normativa della "carta elettronica" ai diciottenni.
 
-5. Se nel momento dell'acquisto effettuo uno sconto ad un ragazzo che presenta pertanto un buono di importo superiore come mi regolo? Posso restituirgli il resto in denaro?
+5. Se nel momento dell'acquisto effettuo uno sconto a un ragazzo che presenta pertanto un buono di importo superiore come mi regolo? Posso restituirgli il resto in denaro?
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -86,15 +86,15 @@ No, non è consentito restituire denaro. Il ragazzo dovrà generare un
 nuovo buono attraverso la piattaforma 18app.
 
 
-6. Un cliente può generare un buono per l'acquisto di più di un ingresso a uno stesso spettacolo (teatrale, cinematografico...) in modo da entrare con altri amici/parenti etc.?
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+6. Un diciottenne può generare un buono per l'acquisto di più di un ingresso a uno stesso spettacolo (teatrale, cinematografico...) in modo da entrare con altri amici/parenti etc.?
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 No, è possibile acquistare solo una singola unità di un determinato
 bene.
 
 
-7. Qualora uno dei beni che ho venduto online non dovesse arrivare e destinazione per motivi indipendenti dalla mia azienda e io abbia già validato il buono emesso dal cliente come mi regolo?
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+7. Qualora uno dei beni che ho venduto online non dovesse arrivare a destinazione per motivi indipendenti dalla mia azienda e io abbia già validato il buono emesso dal cliente, come mi regolo?
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Sarai tu stesso a regolare i rapporti con il cliente considerando
 che non potrai restituirgli denaro o consentire l'acquisto di beni
@@ -124,8 +124,8 @@ nel 1999. I DVD cinematografici non rientrano tra i beni ammessi ai
 sensi della normativa.
 
 
-11. E' possibile vendere strumenti musicali?
---------------------------------------------
+11. È possibile vendere strumenti musicali?
+-------------------------------------------
 
 No, gli strumenti musicali non rientrano tra i beni ammessi ai sensi
 della normativa.
@@ -139,7 +139,7 @@ Registrazione e visibilità
 
 Con le credenziali di accreditamento ai servizi telematici
 dell'Agenzia delle Entrate del proprio rappresentante legale o di un
-soggetto delegato ad operare per suo conto in fisconline o entratel
+soggetto delegato a operare per suo conto in Fisconline o Entratel
 (con codice fiscale/password/codice PIN in caso di Fisconline – con
 nome utente/password/codice PIN in caso di Entratel).
 
@@ -171,7 +171,7 @@ f. elenco di ambiti/beni da rendere disponibili ai beneficiari
 
 In sede di registrazione al servizio 18app puoi inserire i tuoi
 punti negozio con i relativi dati di riferimento (provincia, comune
-ed indirizzo) corredati di recapiti telefonici, sito internet ed
+e indirizzo) corredati di recapiti telefonici, sito internet e
 indirizzo di posta elettronica.
 
 4. La mia azienda ha più punti negozio, devo fare la registrazione per ognuno di essi?
@@ -192,7 +192,7 @@ Generale Musei e saranno geo-localizzabili dai diciottenni
 nell'applicazione a loro dedicata.
 
 
-6. Devo registrare al servizio l'ente che consente l'accesso a monumenti, parchi naturali ed aree archeologiche? Come devo operare?
+6. Devo registrare al servizio l'ente che consente l'accesso a monumenti, parchi naturali e aree archeologiche? Come devo operare?
 -----------------------------------------------------------------------------------------------------------------------------------
 
 I monumenti, parchi naturali e le aree archeologiche che fanno
@@ -216,7 +216,7 @@ Per la geo-localizzazione di tutti i miei punti vendita occorre
 inserire nell'applicazione i dati dei singoli esercizi commerciali.
 
 
-9. Ho registrato il mio punto vendita però l'attività (spettacolo teatrale, concerto…) si svolge in altri luoghi e spesso itineranti, rispetto a quello che ho registrato. Com'è possibile renderlo visibile sulle mappe?
+9. Ho registrato il mio punto vendita però l'attività (spettacolo teatrale, concerto…) si svolge in altri luoghi, spesso itineranti, rispetto a quello che ho registrato. Com'è possibile renderlo visibile sulle mappe?
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Occorrerà aggiornare periodicamente la geo-localizzazione di tutti i
@@ -252,7 +252,7 @@ semplicemente caricando questo codice:
     <script type="text/javascript">
             var agidBannerSize = "S"; 
             var agidBannerLanguage = "IT"; 
-            var agidBannerCorner = "R
+            var agidBannerCorner = "R";
     </script>
     <script type="text/javascript" src="18app-banner/18app-banner.js"></script>
 
@@ -260,22 +260,22 @@ Specificando:
 
 Grandezza del banner: *agidBannerSize*
 
-S: 150px
+   S: 150px
+   
+   M: 200px 
+   
+   L: 250px 
+   
+   F: 100%
 
-M: 200px 
-
-L: 250px 
-
-F: 100%
-
-Lingua: agidBannerLanguage (per ora disponibile solo in lingua
+Lingua: *agidBannerLanguage* (per ora disponibile solo in lingua
 italiana)
 
-Bordi del banner: agidBannerCorner 
+Bordi del banner: *agidBannerCorner*
 
-R: Arrotondati
-
-P: Squadrati
+   R: Arrotondati
+   
+   P: Squadrati
 
 
 12. In fase di registrazione non trovo il codice attività in mio possesso, ma trovo corrispondenza con la descrizione dell'attività? Cosa devo fare?
@@ -319,7 +319,7 @@ In entrambi i casi, puoi verificare i dati di riferimento del buono
 validare l'acquisto.
 
 
-2. Come mi comporto nel caso in cui il sistema non riconosce il codice del buono generato dal diciottenne?
+2. Come mi comporto nel caso in cui il sistema non riconosca il codice del buono generato dal diciottenne?
 ----------------------------------------------------------------------------------------------------------
 
 Ti consigliamo di effettuare le seguenti operazioni:
@@ -349,11 +349,11 @@ In questo caso il diciottenne dovrà pagare il bene da acquistare.
 5. La web-app esercenti funziona con qualsiasi sistema operativo?
 -----------------------------------------------------------------
 
-Si! È sufficiente una connessione a internet e tramite il tuo
-computer o tablet potrai accedere al sistema. Potresti entrare in
-18app anche attraverso il tuo smartphone, ma il sistema non è
-ancora ottimizzato per quel formato, per cui ti consigliamo di
-utilizzare i dispositivi comodi per la visualizzazione.
+Sì, è sufficiente una connessione a internet e tramite il tuo computer o tablet
+potrai accedere al sistema. Potresti entrare in 18app anche attraverso il tuo
+smartphone, ma il sistema non è ancora ottimizzato per quel formato, per cui ti
+consigliamo di utilizzare i dispositivi con schermi abbastanza grandi per la
+visualizzazione.
 
 
 6. Cosa faccio se non riesco a visualizzare l'applicazione?
@@ -372,9 +372,9 @@ l'applicazione è fruibile:
 
 -  Safari su Mac (ultima versione)
 
-**Lato Mobile**
+**Lato Mobile con**
 
--  Stock browsers su "Android Tablet/Smartphone" con Android 4+
+-  Stock browsers su Android Tablet/Smartphone con Android 4+
 
 -  Safari su iPad/iPhone con iOS 8+
 
@@ -462,7 +462,7 @@ quale sarà possibile verificare lo stato di avanzamento della
 fattura così distinto:
 
 -  Accettata: fattura correttamente importata nel sistema, già liquidata
-   o prossima alla liquidazione
+   o prossima alla liquidazione.
 
 -  In elaborazione: fattura pervenuta e in fase di controllo.
 
@@ -489,9 +489,9 @@ sezione "Contatti" all'interno della fattura elettronica.
 8. La fattura emessa avrà valenza ai fini fiscali?
 --------------------------------------------------
 
-La fattura non produce reddito e non rientra nel volume d'affari
-pertanto non dà luogo ad imposte da versare. Tali effetti
-continueranno ad essere prodotti dal documento fiscale (biglietto,
+La fattura non produce reddito e non rientra nel volume d'affari,
+pertanto non dà luogo a imposte da versare. Tali effetti
+continueranno a essere prodotti dal documento fiscale (biglietto,
 scontrino, ricevuta) emesso dall'esercente con i consueti tempi e
 modalità.
 
@@ -501,9 +501,9 @@ modalità.
 ---------------------------------------------------------------------
 
 
-No; la fattura è emessa per regolare la movimentazione finanziaria e
+No, la fattura è emessa per regolare la movimentazione finanziaria e
 quindi per un'operazione al di fuori del campo di applicazione
-dell'Iva ai sensi dell'art. 2, terzo comma, del DPR 633/72
+dell'IVA ai sensi dell'art. 2, terzo comma, del DPR 633/72.
 
 
 10. La fattura emessa dovrà essere registrata contabilmente?
@@ -517,7 +517,7 @@ contabilmente; rimane ovviamente ferma la sua irrilevanza agli
 effetti delle imposte sui redditi e del volume d'affari.
 
 
-11. Gli adempimenti fiscali dell'esercente continuano ad essere gli stessi?
+11. Gli adempimenti fiscali dell'esercente continuano a essere gli stessi?
 ---------------------------------------------------------------------------
 
 Sì.
@@ -528,7 +528,7 @@ Sì.
 12. L'emissione della fattura genera ricavo in capo all'esercente?
 ------------------------------------------------------------------
 
-No; la fattura emessa genera solo un credito nei confronti della
+No, la fattura emessa genera solo un credito nei confronti della
 pubblica amministrazione e
 attiene esclusivamente al profilo finanziario. Per l'esercente il
 ricavo è generato dall'operazione posta in essere con il cliente,
@@ -559,8 +559,11 @@ accettati e da fatturare, come risulta dall'applicazione 18app.
 --------------------------------------------------------------------------------------------------
   
 Devi contattare CONSAP ai seguenti
-recapiti dedicati all'iniziativa: telefono: 06-85796338 / email:
-18app@consap.it
+recapiti dedicati all'iniziativa: 
+
+   telefono: 06-85796338 
+
+   email: 18app@consap.it
 
 17. Ho un tetto massimo di fatturazione sui singoli beni venduti? C'è una tetto massimo totale di fatturazione che non posso superare?
 --------------------------------------------------------------------------------------------------------------------------------------
@@ -580,7 +583,7 @@ Puoi effettuare la fatturazione elettronica in qualunque momento.
 L'intermediario si deve registrare in 18app e quindi provvedere
 all'accettazione del buono di spesa. Di conseguenza, provvederà alla relativa
 fatturazione fuori dal campo di applicazione dell'IVA per regolare la sola
-movimentazione finanziaria. I rapporti tra l'intermediario ed il soggetto
+movimentazione finanziaria. I rapporti tra l'intermediario e il soggetto
 intermediato non subiscono modifiche sotto il profilo
 amministrativo/contabile/fiscale.
 
@@ -604,8 +607,11 @@ genera ricavo in capo all'esercente?`_).
 ----------------------------------------------------------------------------------------------
 
 I contatti di CONSAP da utilizzare per qualsiasi informazione
-relativa alla fattura elettronica sono: telefono: 06-85796338 /
-email: 18app@consap.it.
+relativa alla fattura elettronica sono: 
+   
+   telefono: 06-85796338
+   
+   email: 18app@consap.it
 
 
 23. Gli esercenti che hanno più di un buono per il quale chiedere rimborso possono inviare una fattura cumulativa o è necessaria una fattura per ogni singolo buono?
@@ -618,11 +624,12 @@ di più buoni.
 Problemi tecnici
 ================
 
-1. Chi posso chiamare in caso di problemi all'applicazione 18app?
------------------------------------------------------------------
+
+1. Chi posso chiamare in caso di problemi con l'applicazione 18app?
+-------------------------------------------------------------------
 
 
 Per problemi tecnici dell'applicazione 18app contattare il numero
 verde del MIBACT
-**800.991.199** attivo da lunedì a venerdì esclusi festivi - dalle
+**800.991.199** attivo da lunedì a venerdì, esclusi festivi, dalle
 ore 09.00 alle 17.30.
