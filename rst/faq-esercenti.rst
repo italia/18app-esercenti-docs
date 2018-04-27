@@ -64,9 +64,13 @@ Una volta validati dall’esercente, i buoni non possono più essere annullati e
 
 Nel caso di cambio di resi di prodotti acquistati con il bonus, è tua responsabilità regolare i rapporti con il cliente, fermo restando che **non potrai consegnare resto in denaro** o consentire l’acquisto di beni differenti da quelli previsti dalla normativa della “carta elettronica” ai diciottenni. Questo vale anche nel caso di problemi con la vendita dei prodotti per motivi indipendenti dalla tua azienda.
 
-**Esempio**: se hai validato il buono emesso da un diciottenne per dei beni online che non sono arrivati a destinazione, sarai tu stesso a dover regolare i rapporti con il cliente, considerando che non potrai restituirgli denaro o consentire l’acquisto di beni differenti da quanto previsto dalla normativa della “carta elettronica” ai diciottenni.
+.. admonition:: Esempio
 
-**Esempio**: se al momento dell’acquisto emetti uno sconto, e il diciottenne presenta quindi un buono di importo superiore, non potrai restituire la differenza in denaro. Il diciottenne dovrà generare un nuovo buono attraverso la piattaforma 18app.
+   Se hai validato il buono emesso da un diciottenne per dei beni online che non sono arrivati a destinazione, sarai tu stesso a dover regolare i rapporti con il cliente, considerando che non potrai restituirgli denaro o consentire l’acquisto di beni differenti da quanto previsto dalla normativa della “carta elettronica” ai diciottenni.
+
+.. admonition:: Esempio
+   
+   Se al momento dell’acquisto emetti uno sconto, e il diciottenne presenta quindi un buono di importo superiore, non potrai restituire la differenza in denaro. Il diciottenne dovrà generare un nuovo buono attraverso la piattaforma 18app.
 
 Registrazione e visibilità
 ==========================
@@ -96,7 +100,8 @@ La **registrazione all’applicazione 18app** richiede, invece, le seguenti info
 
 -  elenco di ambiti/beni da rendere disponibili ai beneficiari
 
-**Nota**: La registrazione potrà essere effettuata fino a giugno 2018.
+.. note::
+        La registrazione potrà essere effettuata fino a giugno 2018.
 
 Se in fase di registrazione non trovi il codice attività in tuo possesso, ma trovi corrispondenza con la descrizione dell’attività, è possibile che il codice ATECO in tuo possesso appartenga alla precedente nomenclatura ante 2007 e non sia ancora stato aggiornato con la nuova nomenclatura. Potrai procedere comunque selezionando la descrizione dell’attività corrispondente alla tua: il sistema collegherà automaticamente il codice ATECO in possesso dell’ente con il codice ATECO aggiornato e presente nell’Anagrafe Tributaria.
 
@@ -227,7 +232,9 @@ L’applicazione 18app fornirà una lista dei buoni autorizzati (con l’evidenz
 
 La fatturazione elettronica può essere effettuata in qualsiasi momento: non esistono, infatti, particolari scadenze.
 
-**Esempio**: la fatturazione di abbonamenti e carnet di biglietti non deve necessariamente avvenire nel momento in cui i clienti esauriscono i loro ingressi.
+.. admonition:: Esempio
+
+   La fatturazione di abbonamenti e carnet di biglietti non deve necessariamente avvenire nel momento in cui i clienti esauriscono i loro ingressi.
 
 Gli esercenti possono emettere una fattura cumulativa che consenta il rimborso di più buoni contemporaneamente, se lo desiderano.
 
@@ -247,7 +254,8 @@ Oltre ai dati previsti dalla normativa vigente, è necessario indicare:
 
 3. Codice IBAN di un conto corrente intestato all’esercente stesso sul quale ricevere il pagamento.
 
-**Avvertenza:** ti consigliamo di verificare attentamente il “Codice Ufficio” prima dell’invio della fattura nel Sistema di Interscambio e di inserire nella fattura un numero di telefono e un indirizzo e-mail ai quali poter essere contattato per la risoluzione di eventuali problemi.
+.. warning::
+        Ti consigliamo di verificare attentamente il “Codice Ufficio” prima dell’invio della fattura nel Sistema di Interscambio e di inserire nella fattura un numero di telefono e un indirizzo e-mail ai quali poter essere contattato per la risoluzione di eventuali problemi.
 
 Nel caso di problemi con la predisposizione di fatture elettroniche, puoi contattare CONSAP ai seguenti recapiti dedicati all’iniziativa:
 
@@ -273,7 +281,8 @@ Pagamenti
 
 ll pagamento della fattura avviene tramite bonifico bancario sul conto corrente corrispondente all’IBAN indicato nella fattura.
 
-**Avvertenza**: è importante verificare sempre con estrema attenzione il corretto inserimento del codice IBAN nonché di controllare, soprattutto in caso di fusioni bancarie, che non siano intervenute eventuali variazioni o aggiornamenti che potrebbero causare storni e/o ritardi nelle liquidazioni.
+.. warning::
+       È importante verificare sempre con estrema attenzione il corretto inserimento del codice IBAN nonché di controllare, soprattutto in caso di fusioni bancarie, che non siano intervenute eventuali variazioni o aggiornamenti che potrebbero causare storni e/o ritardi nelle liquidazioni.
 
 A pagamento effettuato, verrà inviata una notifica di avvenuto accredito all’indirizzo e-mail indicato nella sezione “Contatti” all’interno della fattura elettronica.
 
