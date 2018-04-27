@@ -728,7 +728,7 @@ message **ConfirmRequest**
 |         | :ref:`tns:ConfirmRequestObj <ConfirmRequestObj>`                   |
 +---------+--------------------------------------------------------------------+
 | used by | Operation                                                          |
-|         | `Check`_ [1]_                                                      |
+|         | `Confirm`_ [1]_                                                    |
 |         | in PortType                                                        |
 |         | :ref:`VerificaVoucher <VerificaVoucherPort>` [1]_                  |
 +---------+--------------------------------------------------------------------+
@@ -750,7 +750,7 @@ message **ConfirmResponse**
 |         | :ref:`tns:ConfirmResponseObj <ConfirmResponseObj>`                  |
 +---------+---------------------------------------------------------------------+
 | used by | Operation                                                           |
-|         | `Check`_ [1]_                                                       |
+|         | `Confirm`_ [1]_                                                     |
 |         | in PortType                                                         |
 |         | :ref:`VerificaVoucher <VerificaVoucherPort>` [1]_                   |
 +---------+---------------------------------------------------------------------+
