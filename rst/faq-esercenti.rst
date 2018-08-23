@@ -124,7 +124,7 @@ nel 1999. I DVD cinematografici non rientrano tra i beni ammessi ai
 sensi della normativa.
 
 
-11. E' possibile vendere strumenti musicali?
+11. È possibile vendere strumenti musicali?
 --------------------------------------------
 
 No, gli strumenti musicali non rientrano tra i beni ammessi ai sensi
@@ -177,14 +177,12 @@ indirizzo di posta elettronica.
 4. La mia azienda ha più punti negozio, devo fare la registrazione per ognuno di essi?
 --------------------------------------------------------------------------------------
 
-  
 Per la geo-localizzazione di tutti i punti negozio
 da parte dei diciottenni occorre inserire nell'applicazione i dati
 dei singoli esercizi commerciali.
 
 5. Devo registrare al servizio un museo? Come devo operare?
 -----------------------------------------------------------
-
 
 I musei che fanno riferimento al Ministero dei beni e delle attività
 culturali e del turismo sono censiti direttamente dalla Direzione
