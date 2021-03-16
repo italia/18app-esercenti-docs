@@ -206,9 +206,6 @@ online potranno validare nei propri sistemi i voucher di acquisto di
 beni da parte dei 18enni utilizzando uno specifico servizio web di
 cui si forniscono di seguito le specifiche di utilizzo.
 
-**In merito agli endpoint, si precisa che al momento l'indirizzo referenziato nel wsdl** 
-(`http://bonus.mibact.it/VerificaVoucher <http://bonus.mibact.it/VerificaVoucher>`__) **è provvisorio.** 
-
 Il servizio web di **verifica del voucher** da parte degli esercenti
 rende disponibili 2 principali operazioni ("\ **Check** \ " e
 "\ **Confirm**\ "). La seguente descrizione delle operazioni è
